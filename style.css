@@ -64,6 +64,11 @@ body {
   height: auto;
   width: auto;
 }
+.form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 .contbut:hover {
   color: black;
 }
@@ -95,10 +100,13 @@ body {
   display: none;
 }
 .popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(214, 80, 80);
   height: auto;
   width: 40%;
-  padding: 30px;
+  padding: 20px;
   position: absolute;
   top: 20%;
   left: 28%;
@@ -111,11 +119,11 @@ body {
   color: black;
   text-align: center;
 }
+
 #popslt {
   height: 30px;
-  width: 500px;
-  margin: 20px;
-  margin-left: 40px;
+  width: 100%;
+  margin: 10px;
   background-color: aliceblue;
   border: none;
   border-radius: 10px;
@@ -123,11 +131,8 @@ body {
 }
 .popinp {
   height: 30px;
-  width: 500px;
-  margin-right: 20px;
-  margin-left: 40px;
-
-  margin-bottom: 20px;
+  width: 100%;
+  margin: 10px;
   background-color: aliceblue;
   border: none;
   border-radius: 10px;
@@ -135,30 +140,25 @@ body {
 }
 .popdes {
   height: 60px;
-  width: 500px;
-  margin-right: 20px;
-  margin-left: 40px;
-  margin-bottom: 10px;
+  width: 100%;
+  margin: 10px;
   background-color: aliceblue;
   border: none;
   border-radius: 10px;
   color: black;
 }
-#ok {
-  height: 40px;
-  width: 70px;
-  background-color: black;
-  color: aliceblue;
-  border: none;
-  border-radius: 10px;
-  margin-left: 225px;
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
-#can {
+.btns button {
   height: 40px;
   width: 70px;
   background-color: black;
   color: aliceblue;
   border: none;
   border-radius: 10px;
-  margin-left: 10px;
 }
