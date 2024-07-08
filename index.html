@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="title"> 
+        <i class="fa-solid fa-book"></i>
+        <span>To-Do</span>
+    </header>
+    <div class="container" id="cont">
+    <div class="notescont">
+        <select id="slt" > <br>
+       <option  vlaue="name">Name</option>
+        <option vlaue="name">Ashwin</option>
+        <option vlaue="name">varsha</option>
+        <option vlaue="name">darani</option>
+        <option vlaue="name">Jags</option>
+        </select>
+        <h1 class="conth1">Heading</h1>
+        <textarea class="ta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti a qui nemo totam omnis veniam alias, possimus odit! Natus asperiores nostrum, autem molestias et recusandae deleniti porro enim tempora.</textarea>
+        <button onclick="del(event)" class="contbut">Delete</button>
+    </div>
+    </div>
+
+
+    <div class="popblack" id="disblack">
+    </div>
+
+    <div class="popup" id="pop">
+        <form>
+            <h1>Add you work</h3>
+        <select id="popslt" > <br>
+            <option  vlaue="name">Name</option>
+             <option vlaue="name">Ashwin</option>
+             <option vlaue="name">varsha</option>
+             <option vlaue="name">darani</option>
+             <option vlaue="name">Jags</option>
+             </select><br>
+             <input class="popinp" type="text" placeholder="heading" id="pophead"><br>
+             <textarea class="popdes"  placeholder="Brief" id="popdescrip"></textarea><br>
+             <button id="ok">Add</button><button id="can">Cancel</button>
+            </form>
+    </div>
+    <button class="add" id="addbut">+</button>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
